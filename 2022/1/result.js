@@ -1,6 +1,3 @@
-
-
-
 let fs = require("fs");
 let calories = fs.readFileSync('input.txt', 'utf8').split('\n');
 calories = calories.map((element) => element.trim());
